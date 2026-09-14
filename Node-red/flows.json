@@ -1,0 +1,73 @@
+[
+    {
+        "id": "4a2cc285c6bdea21",
+        "type": "inject",
+        "z": "d2eccebd649b2e04",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 70,
+        "y": 320,
+        "wires": [
+            [
+                "b09471d0b4e84fa3"
+            ]
+        ]
+    },
+    {
+        "id": "55782a03c3dca019",
+        "type": "debug",
+        "z": "d2eccebd649b2e04",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 460,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "b09471d0b4e84fa3",
+        "type": "trigger",
+        "z": "d2eccebd649b2e04",
+        "name": "",
+        "op1": "1",
+        "op2": "0",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "250",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 270,
+        "y": 320,
+        "wires": [
+            [
+                "55782a03c3dca019"
+            ]
+        ]
+    }
+]
