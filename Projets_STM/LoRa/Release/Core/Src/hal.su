@@ -1,0 +1,15 @@
+../Core/Src/hal.c:61:6:hal_pin_rxtx	0	static
+../Core/Src/hal.c:71:6:hal_pin_nss	0	static
+../Core/Src/hal.c:76:6:hal_pin_rst	40	static
+../Core/Src/hal.c:98:6:HAL_GPIO_EXTI_Callback	0	static
+../Core/Src/hal.c:118:6:hal_spi_init	0	static
+../Core/Src/hal.c:123:6:hal_spi	24	static
+../Core/Src/hal.c:180:6:HAL_TIM_PeriodElapsedCallback	0	static
+../Core/Src/hal.c:188:6:hal_disableIRQs	0	static,ignoring_inline_asm
+../Core/Src/hal.c:194:6:hal_enableIRQs	0	static,ignoring_inline_asm
+../Core/Src/hal.c:138:6:hal_ticks	8	static
+../Core/Src/hal.c:161:6:hal_waitUntil	8	static
+../Core/Src/hal.c:166:6:hal_checkTimer	16	static
+../Core/Src/hal.c:201:6:hal_sleep	0	static,ignoring_inline_asm
+../Core/Src/hal.c:212:6:hal_init	8	static
+../Core/Src/hal.c:224:6:hal_failed	8	static,ignoring_inline_asm

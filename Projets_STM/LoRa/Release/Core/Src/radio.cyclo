@@ -1,0 +1,15 @@
+radio.c:279:13:writeReg	1
+radio.c:333:13:configLoraModem	8
+radio.c:412:13:configChannel	1
+radio.c:286:13:readReg	1
+radio.c:312:13:opmode	1
+radio.c:553:13:rxlora	5
+radio.c:422:13:configPower	2
+radio.c:657:13:startrx	5
+radio.c:303:13:readBuf.constprop	2
+radio.c:294:13:writeBuf.constprop	2
+radio.c:669:6:radio_init	6
+radio.c:731:6:radio_rand1	3
+radio.c:743:6:radio_rssi	1
+radio.c:762:6:radio_irq_handler	10
+radio.c:833:6:os_radio	9

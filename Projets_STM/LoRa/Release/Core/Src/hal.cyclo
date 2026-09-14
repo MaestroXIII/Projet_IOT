@@ -1,0 +1,15 @@
+hal.c:61:6:hal_pin_rxtx	1
+hal.c:71:6:hal_pin_nss	1
+hal.c:76:6:hal_pin_rst	2
+hal.c:98:6:HAL_GPIO_EXTI_Callback	3
+hal.c:118:6:hal_spi_init	1
+hal.c:123:6:hal_spi	1
+hal.c:180:6:HAL_TIM_PeriodElapsedCallback	2
+hal.c:188:6:hal_disableIRQs	1
+hal.c:194:6:hal_enableIRQs	2
+hal.c:138:6:hal_ticks	3
+hal.c:161:6:hal_waitUntil	4
+hal.c:166:6:hal_checkTimer	4
+hal.c:201:6:hal_sleep	1
+hal.c:212:6:hal_init	1
+hal.c:224:6:hal_failed	1

@@ -1,0 +1,13 @@
+main.c:76:6:os_getArtEui	1
+main.c:80:6:os_getDevEui	1
+main.c:84:6:os_getDevKey	1
+main.c:87:6:initsensor	1
+main.c:93:6:initfunc	1
+main.c:103:10:readsensor	1
+main.c:124:13:blinkfunc	1
+main.c:130:13:hellofunc	1
+main.c:143:13:reportfunc	1
+main.c:189:6:onEvent	18
+main.c:266:5:main	1
+main.c:332:6:SystemClock_Config	4
+main.c:396:6:Error_Handler	1

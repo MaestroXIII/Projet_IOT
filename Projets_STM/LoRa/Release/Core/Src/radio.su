@@ -1,0 +1,15 @@
+../Core/Src/radio.c:279:13:writeReg	16	static
+../Core/Src/radio.c:333:13:configLoraModem	16	static
+../Core/Src/radio.c:412:13:configChannel	8	static
+../Core/Src/radio.c:286:13:readReg	8	static
+../Core/Src/radio.c:312:13:opmode	8	static
+../Core/Src/radio.c:553:13:rxlora	16	static
+../Core/Src/radio.c:422:13:configPower	8	static
+../Core/Src/radio.c:657:13:startrx	16	static
+../Core/Src/radio.c:303:13:readBuf.constprop	16	static
+../Core/Src/radio.c:294:13:writeBuf.constprop	16	static
+../Core/Src/radio.c:669:6:radio_init	24	static
+../Core/Src/radio.c:731:6:radio_rand1	16	static
+../Core/Src/radio.c:743:6:radio_rssi	16	static
+../Core/Src/radio.c:762:6:radio_irq_handler	16	static
+../Core/Src/radio.c:833:6:os_radio	8	static
